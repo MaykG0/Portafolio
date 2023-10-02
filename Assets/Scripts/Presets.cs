@@ -21,7 +21,7 @@ public class Presets : MonoBehaviour
 
     //Principal
 
-    public string server = "Server=192.168.100.10;Database=maykbasemk_1;Uid=posmc;Pwd=pospunto_2021!!!;";
+    public string server = "Server=0.0.0.0;Database=maykbasemk_1;Uid=posmc;Pwd=12345;";
     public string empleados = "empleados_log";
 
     public string producto = "X";
@@ -40,14 +40,14 @@ public class Presets : MonoBehaviour
 
     //Complementos
 
-    public string ip = "192.168.100.10";
+    public string ip = "0.0.0.0";
     public string data = "maykbasemk_1";
     public string user = "posmc";
-    public string password = "pospunto_2021!!!";
+    public string password = "12345";
 
     //Sucursales
 
-    public string Estacion = "Server=187.188.193.139;Database=maykbasemk_1;Uid=posmc;Pwd=posmc12345;";
-    public string Tlaltenco = "Server=192.168.100.10;Database=maykbasemk_1;Uid=posmc;Pwd=pospunto_2021!!!;";
-    public string SantaM = "Server=192.168.100.10;Database=maykbasemk_1;Uid=posmc;Pwd=pospunto_2021!!!;";
+    public string Estacion = "Server=0.0.0.0;Database=maykbasemk_1;Uid=posmc;Pwd=12345;";
+    public string Tlaltenco = "Server=0.0.0.0;Database=maykbasemk_1;Uid=posmc;Pwd=12345;";
+    public string SantaM = "Server=0.0.0.0;Database=maykbasemk_1;Uid=posmc;Pwd=12345;";
 }
